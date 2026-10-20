@@ -166,18 +166,14 @@ These measurements form the basis for subsequent cellular characterization and s
 
 ## 4. UNIform Image Normalization
 
-[UNIform](ADD_UNIFORM_PAPER_LINK) normalization (Wang et al., 2025) is used to normalize mean intensity measurements. This method was selected because it is specifically designed for multiplex imaging data.
+UNIform normalization (Wang et al., 2025) is used to normalize mean intensity measurements. This method was selected because it is specifically designed for multiplex imaging data.
 
 Normalization helps improve comparability of marker intensities across images and staining channels, supporting downstream biomarker analysis and clustering.
 
 ### Example Output
+<img width="857" height="374" alt="Screenshot 2026-10-20 at 14 37 39" src="https://github.com/user-attachments/assets/fedf43cd-6cd6-4222-b801-1c5c79821089" />
 
-<!-- Replace the placeholder below with the normalization figure. -->
-![Example output of UNIform image normalization]<img width="857" height="374" alt="Screenshot 2026-10-20 at 14 37 39" src="https://github.com/user-attachments/assets/fedf43cd-6cd6-4222-b801-1c5c79821089" />
-
-)
-
-**Reference:** Wang et al. (2025). [Paper link](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(25)00208-5)
+**Reference:** [Paper link](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(25)00208-5)
 
 ## 5. K-Means Clustering and UMAP Visualization
 
